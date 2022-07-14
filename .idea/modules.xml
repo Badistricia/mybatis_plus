@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/03_wrapper/03_wrapper.iml" filepath="$PROJECT_DIR$/03_wrapper/03_wrapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_expand/04_expand.iml" filepath="$PROJECT_DIR$/04_expand/04_expand.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_generator/05_generator.iml" filepath="$PROJECT_DIR$/05_generator/05_generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_genneratorNew/_genneratorNew.iml" filepath="$PROJECT_DIR$/_genneratorNew/_genneratorNew.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_plus.iml" filepath="$PROJECT_DIR$/mybatis_plus.iml" />
     </modules>
   </component>
