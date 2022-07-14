@@ -1,0 +1,19 @@
+# 数据源
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:p6spy:mysql://localhost:3306/mybatisplus?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&
+    driver-class-name: com.p6spy.engine.spy.P6SpyDriver #com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+logging:
+  level:
+    root: info
+    com.tulingxueyuan: debug
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: enabled  #逻辑删除的字段
+      logic-delete-value: 0     #已删除数据
+      logic-not-delete-value: 1   #有效数据
+      id-type: auto

@@ -1,0 +1,24 @@
+# 数据源
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/mybatisplus?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    #初始化时运行sql脚本
+    schema: classpath:sql/schema.sql
+    initialization-mode : never
+logging:
+  level:
+    root: info
+    com.tulingxueyuan: debug
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+  # mp 默认的mapper.xml路径地址是classpath*:/mapper/**/*.xml  ,如果不是需要通过以下配置设置
+  mapper-locations: classpath:/mapperxx/*.xml
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true

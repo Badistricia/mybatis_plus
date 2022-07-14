@@ -1,0 +1,18 @@
+# 数据源
+spring:
+  datasource:
+    username: root
+    password: 1234567
+    url: jdbc:mysql://localhost:3306/mybatispdemo?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&useUnicode=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    #初始化时运行sql脚本
+    schema: classpath:sql/schema.sql
+    initialization-mode : never
+logging:
+  level:
+    root: info
+    com.tulingxueyuan: debug
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false

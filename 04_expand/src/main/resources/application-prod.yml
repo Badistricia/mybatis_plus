@@ -1,0 +1,19 @@
+# 数据源
+spring:
+  datasource:
+    username: mpw:0Cj49ihj1Q6UbkRfixFdVg==
+    password: mpw:yp192XvO1C0jq67MeCvlIg==
+    url: mpw:nIh0E63gBfvpFbz2tXDyWDN2kFpD+apc9JaRYosGY5sKL3zyNwalK3OfGo27p8AM8BL0llHGFwpfdELaf79NIxm8kfOMhUdOFLNy7g85BTCrEzbYEHqp3THf7KOz80Ka
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+logging:
+  level:
+    root: info
+    com.tulingxueyuan: debug
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: enabled  #逻辑删除的字段
+      logic-delete-value: 0     #已删除数据
+      logic-not-delete-value: 1   #有效数据
+      id-type: auto

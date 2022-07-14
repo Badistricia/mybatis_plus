@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_quick_start/01_quick_start.iml" filepath="$PROJECT_DIR$/01_quick_start/01_quick_start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_service_crud/02_service_crud.iml" filepath="$PROJECT_DIR$/02_service_crud/02_service_crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_wrapper/03_wrapper.iml" filepath="$PROJECT_DIR$/03_wrapper/03_wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_expand/04_expand.iml" filepath="$PROJECT_DIR$/04_expand/04_expand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_generator/05_generator.iml" filepath="$PROJECT_DIR$/05_generator/05_generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_plus.iml" filepath="$PROJECT_DIR$/mybatis_plus.iml" />
+    </modules>
+  </component>
+</project>
